@@ -67,3 +67,4 @@ if prompt := st.chat_input("e.g. Add 2 backpacks and a t-shirt to my cart"):
         st.markdown(answer)
     ss.chat.append({"role": "assistant", "content": answer})
     st.rerun()  # refresh so the sidebar trace shows this turn's tool calls
+
